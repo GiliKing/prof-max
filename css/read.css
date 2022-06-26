@@ -1,0 +1,37 @@
+
+
+
+
+.event_page_only {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.event_page_only {
+    width: 90%;
+    margin: 100px auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 2px 2px 5px 5px lightgray;
+    border-radius: 10px;
+    /* height: 80vh; */
+}
+
+
+.event_page_only h3 {
+    text-align: center;
+    color: #FF4800;
+}
+
+.event_page_only p {
+    text-align: center;
+    margin-top: 100px;
+    margin-top: 80px;
+    word-spacing: 10px;
+}
+
+.event_page_only img {
+    margin-bottom: 60px;
+}

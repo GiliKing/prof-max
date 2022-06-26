@@ -1,0 +1,29 @@
+
+
+
+/* centralization */
+
+
+.cover_article {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.cover_article .container-fluid {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.my_card {
+    box-shadow: 2px 2px 5px 5px lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.my_card h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
