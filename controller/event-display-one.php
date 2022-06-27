@@ -13,7 +13,7 @@ if($sum_result) {
 
     $sum = $row_lol[0];
 
-    if($sum > 0) {
+    if($sum >  0) {
         $event_info = "SELECT * FROM `event` ORDER BY `id` DESC LIMIT 3";
 
         $result = mysqli_query($conn, $event_info);

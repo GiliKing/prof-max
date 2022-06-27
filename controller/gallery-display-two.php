@@ -16,37 +16,45 @@ if($sum_result) {
 
     $sum = $row[0];
 
-    $firstSum = $sum  - 5;
-    $secondSum = $firstSum - 4;
+    if($sum > 5) {
 
-    $event_info = "SELECT * FROM `image` WHERE `id` BETWEEN '$secondSum' AND '$firstSum'";
+    
+        $firstSum = $sum  - 5;
+        $secondSum = $firstSum - 4;
 
-    $result = mysqli_query($conn, $event_info);
+        $event_info = "SELECT * FROM `image` WHERE `id` BETWEEN '$secondSum' AND '$firstSum'";
 
-    if($result) {
+        $result = mysqli_query($conn, $event_info);
 
-        while ($row_limit = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-    
-            $id = $row_limit['id'];
-            $image_header = $row_limit['image_name'];
-            $image_data = $row_limit['image_photo'];
-    
-            
-    
-            echo"
-                <div class='car'>
-                    <img src='dashboard/{$image_data}'>
-                    <div class='card__head'>{$image_header}</div>
-                </div>
-            ";
-    
-        }
-    
+        if($result) {
+
+            while ($row_limit = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
         
+                $id = $row_limit['id'];
+                $image_header = $row_limit['image_name'];
+                $image_data = $row_limit['image_photo'];
+        
+                
+        
+                echo"
+                    <div class='car'>
+                        <img src='dashboard/{$image_data}'>
+                        <div class='card__head'>{$image_header}</div>
+                    </div>
+                ";
+        
+            }
+        
+            
+        } else {
+        
+            echo mysqli_error($conn);
+        
+        }
     } else {
-    
-        echo mysqli_error($conn);
-    
+        echo "<div class='alert alert-info' role='alert'>
+        Nothing Thing to Display For now
+      </div>";
     }
     
 

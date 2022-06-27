@@ -17,7 +17,8 @@ if($sum_result) {
 
     $sum = $row[0];
 
-    $firstSum = $sum  - 5;
+    if($sum > 0) {
+        $firstSum = $sum  - 5;
     $secondSum = $firstSum - 3;
 
     $event_info = "SELECT * FROM   `event` WHERE `id` BETWEEN '$secondSum' AND '$firstSum'";
@@ -51,6 +52,11 @@ if($sum_result) {
 
         echo mysqli_error($conn);
 
+    }
+    } else {
+        echo "<div class='alert alert-info' role='alert'>
+        Nothing Thing to Display For now
+      </div>";
     }
 }
 
