@@ -232,7 +232,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container">
             <div class="text-center pb-2">
                 <h6 class="text-primary text-uppercase font-weight-bold">Testimonial</h6>
@@ -285,7 +285,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
