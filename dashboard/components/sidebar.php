@@ -12,12 +12,12 @@
               <div class="logo_img">
                 <img src="../img/logo-back.png" alt="" width="50%">
               </div class="list_events">
-              <a href="prof.php">Home</a>
-              <a href="events.php">Events</a>
-              <a href="article.php">Articles</a>
-              <a href="gallery.php">Gallery</a>
-              <a href="#">More</a>
-              <a href="logout.php">Logout</a>
+              <a href="prof">Home</a>
+              <a href="events">Events</a>
+              <a href="article">Articles</a>
+              <a href="gallery">Gallery</a>
+              <a href="../../index">Live</a>
+              <a href="logout">Logout</a>
             </div>
             
             <h2>Welcome Prof Osinubi</h2>

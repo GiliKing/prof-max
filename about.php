@@ -65,7 +65,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.php" class="navbar-brand ml-lg-3">
+            <a href="index" class="navbar-brand ml-lg-3">
                 <h1 class="m-0 display-5 text-uppercase text-primary"><i class="fa fa-book" aria-hidden="true"></i>Prof Osinubi</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -73,13 +73,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-                    <a href="about.php" class="nav-item nav-link">About</a>
-                    <a href="service.php" class="nav-item nav-link">Service</a>
-                    <a href="gallery.php" class="nav-item nav-link">Gallery</a>
-                    <a href="article.php" class="nav-item nav-link">Article</a>
-                    <!--<a href="article.php" class="dropdown-item">Products</a>-->
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="index" class="nav-item nav-link active">Home</a>
+                    <a href="about" class="nav-item nav-link">About</a>
+                    <a href="service" class="nav-item nav-link">Service</a>
+                    <a href="gallery" class="nav-item nav-link">Gallery</a>
+                    <a href="article" class="nav-item nav-link">Article</a>
+                    <!--<a href="article" class="dropdown-item">Products</a>-->
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
@@ -97,7 +97,7 @@
         <div class="container text-center py-5">
             <h1 class="text-white display-3">About</h1>
             <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="index.php">Home</a></p>
+                <p class="m-0"><a class="text-white" href="index">Home</a></p>
                 <i class="fa fa-circle px-3 blink_dot"></i>
                 <p class="m-0">About</p>
             </div>
@@ -234,7 +234,7 @@
                         <h6 class="text-white font-weight-medium m-0">Events</h6>
                     </div>
                     <p>Our Events are always on session check our facebook page or visit the service page for more info</p>
-                    <a class="border-bottom text-decoration-none" href="service.php">Read More</a>
+                    <a class="border-bottom text-decoration-none" href="service">Read More</a>
                 </div>
             </div>
         </div>
@@ -266,11 +266,11 @@
                     <div class="col-md-6 mb-5">
                         <h3 class="text-primary mb-4">Quick Links</h3>
                         <div class="d-flex flex-column justify-content-start">
-                            <a class="text-white mb-2" href="index.php"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="index"><i class="fa fa-angle-right mr-2"></i>Home</a>
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                            <a class="text-white mb-2" href="service.php"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                            <a class="text-white mb-2" href="article.php"><i class="fa fa-angle-right mr-2"></i>Article</a>
-                            <a class="text-white" href="contact.php"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            <a class="text-white mb-2" href="service"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                            <a class="text-white mb-2" href="article"><i class="fa fa-angle-right mr-2"></i>Article</a>
+                            <a class="text-white" href="contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                         </div>
                     </div>
                 </div>
