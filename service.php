@@ -77,8 +77,8 @@
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="gallery.php" class="nav-item nav-link">Gallery</a>
-                    <a href="products.php" class="nav-item nav-link">Article</a>
-                    <!--<a href="article.php" class="dropdown-item">Products</a>-->
+                    <a href="article.php" class="nav-item nav-link">Article</a>
+                    <!-- <a href="article.php" class="dropdown-item">Products</a> -->
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
