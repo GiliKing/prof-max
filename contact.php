@@ -28,8 +28,7 @@
             <div class="row">
                 <div class="col-lg-5 pb-4 pb-lg-0">
                     <div class="bg-primary text-dark text-center p-4">
-                        <h4 class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>11 Oba Akinjobi Way, Ikeja GRA 101233, Lagos
-                            Areas served: Kuta and nearby areas</h4>
+                        <h4 class="m-0"><i class="fa fa-map-marker-alt text-white mr-2"></i>Department of Anatomy, University of Lagos, Lagos Nigeria</h4>
                     </div>
                     <iframe style="width: 100%; height: 470px;"
                         src="https://mapcarta.com/33183264/Map"
