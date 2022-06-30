@@ -90,7 +90,7 @@
         <div class='event_content_display'>
             <div class="row">
             <?php
-                require "controller/read-one";
+                require "controller/read-one.php";
             ?>
             </div>
         </div>
