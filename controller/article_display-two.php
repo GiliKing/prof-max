@@ -61,9 +61,7 @@ if($sum_result) {
 
         
     } else {
-        echo "<div class='alert alert-info' role='alert'>
-        Nothing Thing to Display For now
-      </div>";
+        // 
     }
 }
 
